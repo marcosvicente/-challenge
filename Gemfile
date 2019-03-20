@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'rubocop', require: false
 gem 'ffaker'
+gem "octokit"
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
@@ -49,6 +50,8 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
+  gem 'shoulda-matchers'
+  gem 'rails-controller-testing'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
